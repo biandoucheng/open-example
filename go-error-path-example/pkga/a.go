@@ -2,9 +2,11 @@ package pkga
 
 import (
 	"errors"
+
+	gperr "github.com/biandoucheng/go-error-path"
 )
 
-func FuncA() error {
+func FuncA() gperr.ErrorItem {
 	err := errors.New("faild run func A")
-	return pkgAError.ParsePkgDwtErr("FuncA", err)
+	return pkgAError.ParseError("FuncA", err)
 }

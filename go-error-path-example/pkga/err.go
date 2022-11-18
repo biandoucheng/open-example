@@ -12,5 +12,5 @@ var pkgAError *PkgAErrorType
 
 func init() {
 	pkgAError = &PkgAErrorType{}
-	pkgAError.Init(pkgAError, "Wrong A")
+	pkgAError.Init(pkgAError, "对象A执行失败", "内部错误 00A")
 }
