@@ -22,7 +22,7 @@ func main() {
 	globalTerminator.Run()
 
 	counterServer.Init(time.Second * 1)
-	globalTerminator.Register("globalTerminator.Terminated", 0, time.Second*5, counterServer.Terminated)
+	globalTerminator.Register("counterServer.Terminated", 0, time.Second*5, counterServer.Terminated)
 	go counterServer.Run()
 
 	globalTerminator.Register("clockServer.Terminated", 1, time.Second*2, clockServer.Terminated)
@@ -40,17 +40,17 @@ func main() {
 // output:
 /*
 Current Count:  1
-Bang , Bang , Bang
 Current Count:  2
+Bang , Bang , Bang
 Current Count:  3
 Current Count:  4
 Bang , Bang , Bang
 Current Count:  5
 ^Cgo-terminator: Service interrupted by interrupt signal,and the service is exiting gracefully .
-go-terminator: func globalTerminator.Terminated[0] start running
-.ACountServer is stopping:  2023-01-16 17:00:44.610857 +0800 CST m=+5.340958792
-go-terminator: func globalTerminator.Terminated[0] is done
+go-terminator: func counterServer.Terminated[0] start running
+.ACountServer is stopping:  2023-01-16 17:54:00.399728 +0800 CST m=+5.122970709
+go-terminator: func counterServer.Terminated[0] is done
 .go-terminator: func clockServer.Terminated[1] start running
-.Clock is stopping:  2023-01-16 17:00:44.711366 +0800 CST m=+5.441469334
+.Clock is stopping:  2023-01-16 17:54:00.500979 +0800 CST m=+5.224218793
 go-terminator: func clockServer.Terminated[1] is done
 */
