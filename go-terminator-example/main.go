@@ -25,7 +25,7 @@ func main() {
 	globalTerminator.Register("globalTerminator.Terminated", 0, time.Second*5, counterServer.Terminated)
 	go counterServer.Run()
 
-	globalTerminator.Register("clockServer.Terminated", 0, time.Second*2, clockServer.Terminated)
+	globalTerminator.Register("clockServer.Terminated", 1, time.Second*2, clockServer.Terminated)
 	go clockServer.Run()
 
 	for {
