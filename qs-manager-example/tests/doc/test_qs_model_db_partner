@@ -1,0 +1,53 @@
+QSM\Result Object
+(
+    [data] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 9
+                    [part_type] => 1
+                    [username] => Kt6xZ2aIkDZrd2I
+                    [company] => MingRen OI9jq9JKHc Company
+                    [member_num] => 559
+                    [invite_id] => 9
+                    [status] => 1
+                    [lastmod_time] => 2021-06-19 17:30:10
+                    [accept_time] => 2021-06-19 17:30:10
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 6
+                    [part_type] => 1
+                    [username] => n7yu4NFN412Vlho
+                    [company] => MingRen KQjIHeGc0g Company
+                    [member_num] => 843
+                    [invite_id] => 6
+                    [status] => 1
+                    [lastmod_time] => 2021-06-19 17:30:07
+                    [accept_time] => 2021-06-19 17:30:07
+                )
+
+            [2] => stdClass Object
+                (
+                    [id] => 4
+                    [part_type] => 1
+                    [username] => 4Z8GhNSvSfSqzWu
+                    [company] => MingRen XtvEDBcA6R Company
+                    [member_num] => 214
+                    [invite_id] => 4
+                    [status] => 1
+                    [lastmod_time] => 2021-06-19 17:30:05
+                    [accept_time] => 2021-06-19 17:30:05
+                )
+
+        )
+
+    [page] => 1
+    [limit] => 30
+    [count] => 3
+    [sum] =>
+    [summary] =>
+    [pageSummary] =>
+    [attach] =>
+)

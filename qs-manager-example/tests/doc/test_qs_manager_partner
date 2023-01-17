@@ -1,0 +1,91 @@
+(
+    [excel] =>
+    [excelName] => download.csv
+    [header] => Array
+        (
+            [id] => 伙伴ID
+            [part_type] => 伙伴类型
+            [username] => 用户名
+            [company] => 公司名称
+            [member_num] => 成员数量
+            [invite_man] => 邀请人
+            [status] => 伙伴状态
+            [lastmod_time] => 修改时间
+            [accept_time] => 创建时间
+        )
+
+    [index] => Array
+        (
+            [id] => 0
+            [part_type] => 1
+            [username] => 2
+            [company] => 3
+            [member_num] => 4
+            [invite_man] => 5
+            [status] => 6
+            [lastmod_time] => 7
+            [accept_time] => 8
+        )
+
+    [fields] => Array
+        (
+            [id] => 1
+            [part_type] => 1
+            [username] => 1
+            [company] => 1
+            [member_num] => 1
+            [invite_man] => 1
+            [status] => 1
+            [lastmod_time] => 1
+            [accept_time] => 1
+        )
+
+    [select] => Array
+        (
+            [partner_id] => 1
+            [part_type] => 1
+            [username] => 1
+            [company] => 1
+            [member_num] => 1
+            [invite_man] => 1
+            [status] => 1
+            [lastmod_time] => 1
+            [accept_time] => 1
+        )
+
+    [page] => 1
+    [limit] => 30
+    [where] => Array
+        (
+            [partner_id] => QSM\Condition Object
+                (
+                    [field] => id
+                    [opt] => =
+                    [val] => 12
+                    [enable:QSM\Condition:private] => 1
+                )
+
+            [part_type] => QSM\Condition Object
+                (
+                    [field] => part_type
+                    [opt] => =
+                    [val] => 1
+                    [enable:QSM\Condition:private] => 1
+                )
+
+        )
+
+    [group] =>
+    [order] => Array
+        (
+            [lastmod_time] => desc
+            [accept_time] => desc
+        )
+
+    [pluck] =>
+    [sum] =>
+    [count] =>
+    [first] =>
+    [summary] =>
+    [pageSummary] =>
+)

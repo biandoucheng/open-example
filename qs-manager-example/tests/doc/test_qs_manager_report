@@ -1,0 +1,100 @@
+(
+    [excel] =>
+    [excelName] => download.csv
+    [header] => Array
+        (
+            [yyyyMMdd] => 日期
+            [partner_id] => 伙伴ID
+            [partner_name] => 伙伴名称
+            [member_id] => 成员ID
+            [member] => 成员
+            [stat] => 状态
+            [sale_volume] => 销售量
+            [back_volume] => 退款量
+            [broken_volume] => 损坏量
+            [earn] => 收入
+            [earn_ratio] => 收入环比
+        )
+
+    [index] => Array
+        (
+            [yyyyMMdd] => 0
+            [partner_id] => 1
+            [partner_name] => 2
+            [member_id] => 3
+            [member] => 4
+            [stat] => 5
+            [sale_volume] => 6
+            [back_volume] => 7
+            [broken_volume] => 8
+            [earn] => 9
+            [earn_ratio] => 10
+        )
+
+    [fields] => Array
+        (
+            [yyyyMMdd] => 1
+            [partner_id] => 1
+            [member_id] => 1
+            [stat] => 1
+            [sale_volume] => 1
+            [back_volume] => 1
+            [broken_volume] => 1
+            [earn] => 1
+        )
+
+    [select] => Array
+        (
+            [yyyyMMdd] => 1
+            [partner_id] => 1
+            [member_id] => 1
+            [stat] => 1
+            [sale_volume] => 1
+            [back_volume] => 1
+            [broken_volume] => 1
+            [earn] => 1
+        )
+
+    [page] => 1
+    [limit] => 30
+    [where] => Array
+        (
+            [yyyyMMdd] => QSM\Condition Object
+                (
+                    [field] => yyyyMMdd
+                    [opt] => =
+                    [val] => 20210601
+                    [enable:QSM\Condition:private] => 1
+                )
+
+            [partner_id] => QSM\Condition Object
+                (
+                    [field] => partner_id
+                    [opt] => =
+                    [val] => 12
+                    [enable:QSM\Condition:private] => 1
+                )
+
+        )
+
+    [group] => Array
+        (
+            [0] => yyyyMMdd
+            [1] => partner_id
+            [2] => member_id
+        )
+
+    [order] => Array
+        (
+            [yyyyMMdd] => desc
+            [partner_id] => asc
+            [member_id] => asc
+        )
+
+    [pluck] =>
+    [sum] => 1
+    [count] =>
+    [first] =>
+    [summary] =>
+    [pageSummary] =>
+)

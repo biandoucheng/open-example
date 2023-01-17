@@ -1,0 +1,301 @@
+(
+    [data] => Array
+        (
+            [0] => App\Model\Partner Object
+                (
+                    [table:protected] => partner
+                    [guarded:protected] => Array
+                        (
+                        )
+
+                    [timestamps] =>
+                    [connection:protected] => mysql
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] =>
+                    [attributes:protected] => Array
+                        (
+                            [id] => 9
+                            [part_type] => 1
+                            [username] => Kt6xZ2aIkDZrd2I
+                            [company] => MingRen OI9jq9JKHc Company
+                            [member_num] => 559
+                            [invite_id] => 9
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:10
+                            [accept_time] => 2021-06-19 17:30:10
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 9
+                            [part_type] => 1
+                            [username] => Kt6xZ2aIkDZrd2I
+                            [company] => MingRen OI9jq9JKHc Company
+                            [member_num] => 559
+                            [invite_id] => 9
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:10
+                            [accept_time] => 2021-06-19 17:30:10
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                        )
+
+                    [dates:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] =>
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [hidden:protected] => Array
+                        (
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                        )
+
+                )
+
+            [1] => App\Model\Partner Object
+                (
+                    [table:protected] => partner
+                    [guarded:protected] => Array
+                        (
+                        )
+
+                    [timestamps] =>
+                    [connection:protected] => mysql
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] =>
+                    [attributes:protected] => Array
+                        (
+                            [id] => 6
+                            [part_type] => 1
+                            [username] => n7yu4NFN412Vlho
+                            [company] => MingRen KQjIHeGc0g Company
+                            [member_num] => 843
+                            [invite_id] => 6
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:07
+                            [accept_time] => 2021-06-19 17:30:07
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 6
+                            [part_type] => 1
+                            [username] => n7yu4NFN412Vlho
+                            [company] => MingRen KQjIHeGc0g Company
+                            [member_num] => 843
+                            [invite_id] => 6
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:07
+                            [accept_time] => 2021-06-19 17:30:07
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                        )
+
+                    [dates:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] =>
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [hidden:protected] => Array
+                        (
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                        )
+
+                )
+
+            [2] => App\Model\Partner Object
+                (
+                    [table:protected] => partner
+                    [guarded:protected] => Array
+                        (
+                        )
+
+                    [timestamps] =>
+                    [connection:protected] => mysql
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] =>
+                    [attributes:protected] => Array
+                        (
+                            [id] => 4
+                            [part_type] => 1
+                            [username] => 4Z8GhNSvSfSqzWu
+                            [company] => MingRen XtvEDBcA6R Company
+                            [member_num] => 214
+                            [invite_id] => 4
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:05
+                            [accept_time] => 2021-06-19 17:30:05
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 4
+                            [part_type] => 1
+                            [username] => 4Z8GhNSvSfSqzWu
+                            [company] => MingRen XtvEDBcA6R Company
+                            [member_num] => 214
+                            [invite_id] => 4
+                            [status] => 1
+                            [lastmod_time] => 2021-06-19 17:30:05
+                            [accept_time] => 2021-06-19 17:30:05
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                        )
+
+                    [dates:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] =>
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [hidden:protected] => Array
+                        (
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [page] => 1
+    [limit] => 30
+    [count] => 3
+    [sum] =>
+    [summary] =>
+    [pageSummary] =>
+    [attach] =>
+)
