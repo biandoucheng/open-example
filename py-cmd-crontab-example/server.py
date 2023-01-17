@@ -9,6 +9,18 @@ class HealthCheck(BaseHTTPRequestHandler):
         self.send_header('Content_type','text/plain;charset=utf-8')
         self.end_headers()
         self.wfile.write('ok\n'.encode())
+    
+    def log_error(self, format: str, *args) -> None:
+        """
+        保证错误信息打印
+        """
+        return super().log_error(format, *args)
+    
+    def log_message(self, format: str, *args) -> None:
+        """
+        关闭普通信息打印
+        """
+        pass
 
 def run():
     """
